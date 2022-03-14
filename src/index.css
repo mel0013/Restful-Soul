@@ -22,7 +22,7 @@ a {
 
 .row {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .col-1 {
@@ -42,4 +42,19 @@ a {
 
 .row.center {
   align-items: center;
+}
+
+img.small {
+  max-width: 8rem;
+}
+
+button {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+  margin: 0.1rem;
+  border-radius: 0.5rem;
+  border: 0.1rem #534340 solid;
+  background-color: #C5D8A4;
+  width: 100%;
+  cursor: pointer;
 }
