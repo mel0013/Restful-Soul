@@ -58,3 +58,22 @@ button {
   width: 100%;
   cursor: pointer;
 }
+
+button.add {
+  background-color: #BB9981;
+  width: 1.5rem;
+}
+button.remove {
+  background-color: #C65D7B;
+  width: 1.5rem;
+}
+button.badge {
+  background-color: #C65D7B;
+  width: 1.5rem;
+  border: none;
+  color: #fff;
+  width: 1.5rem;
+}
+.text-right {
+  text-align: right;
+}
