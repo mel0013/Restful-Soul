@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header(props) {
   return (
-    <header>
+    <header className='row block center'>
       <div>
         <a href='#/'>
           <h1>Small Shopping Cart</h1>

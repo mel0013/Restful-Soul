@@ -39,3 +39,7 @@ a {
   margin: 0.5rem;
   border-radius: 0.5rem;
 }
+
+.row.center {
+  align-items: center;
+}
