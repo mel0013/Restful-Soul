@@ -33,15 +33,9 @@ function App() {
   };
   return (
     <div className="App">
-      <Header></Header>
-      <div className="row">
-        <Main onAdd={onAdd} products={products}></Main>
-        <Basket
-          onAdd={onAdd}
-          onRemove={onRemove}
-          cartItems={cartItems}
-        ></Basket>
-      </div>
+      <Header countCartItems={cartItems.length}></Header>
+      <Main onAdd={onAdd} products={products}></Main>
+      <Basket onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Basket>
     </div>
   );
 }

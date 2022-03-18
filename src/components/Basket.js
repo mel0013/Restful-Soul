@@ -7,7 +7,7 @@ export default function Basket(props) {
   const totalPrice = itemsPrice + shippingPrice;
   return (
     <aside className="block col-1">
-      <h2>Cart Items</h2>
+      <h2>Shopping Cart</h2>
       <div>{cartItems.length === 0 && <div>Cart is Empty</div>}</div>
       {cartItems.map((item) => (
         <div key={item.id} className="row">
@@ -41,6 +41,9 @@ export default function Basket(props) {
               <strong>Total Price</strong>
             </div>
             <div className="col-1 text-right">${totalPrice.toFixed(2)}</div>
+          </div>
+          <div className="row">
+            <button onClick={() => alert('Coming Soon!')}>Buy now</button>
           </div>
         </>
       )}
