@@ -9,7 +9,7 @@ export default function Header(props) {
       </div>
       <div>
         <a href="#/cart">
-          Cart{' '}
+          🛍️{' '}
           {countCartItems ? (
             <button className="badge">{countCartItems}</button>
           ) : (
