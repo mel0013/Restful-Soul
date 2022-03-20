@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/restful-soul/static/css/main.066e5a1c.css",
+    "main.js": "/restful-soul/static/js/main.ebed43fa.js",
+    "static/js/787.331c6604.chunk.js": "/restful-soul/static/js/787.331c6604.chunk.js",
+    "index.html": "/restful-soul/index.html",
+    "main.066e5a1c.css.map": "/restful-soul/static/css/main.066e5a1c.css.map",
+    "main.ebed43fa.js.map": "/restful-soul/static/js/main.ebed43fa.js.map",
+    "787.331c6604.chunk.js.map": "/restful-soul/static/js/787.331c6604.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.066e5a1c.css",
+    "static/js/main.ebed43fa.js"
+  ]
+}
